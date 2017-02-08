@@ -1,0 +1,16 @@
+{
+  "name": "Viewable",
+  "version": "0.0.1",
+  "description": "Simple movie Viewer",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "*",
+    "underscore-node":"*",
+    "socket.io":"*",
+    "express":"*"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Maximilian Geithe",
+  "license": ""
+}
