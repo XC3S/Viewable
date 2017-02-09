@@ -21,7 +21,9 @@ function webServerProvider(crawler){
 
 		socket.on('load',function(movie){
 			console.log("load: ",movie.name);
-			crawler.crawlMovieURL(socket,movie);
+			crawler.crawlMovieURL(socket,movie,function(socketId,streamURL){
+				io.to(socketId).emit('receiveStream',streamURL);
+			});
 		});
 	});
 

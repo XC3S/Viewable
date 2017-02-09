@@ -6,6 +6,10 @@ app.factory('$movie',function($socket){
 		console.log(data);
 	});
 
+	$socket.on('receiveStream',function(url){
+		alert(url);
+	});
+
 	return {
 		getMovies: function(){
 			return movies;

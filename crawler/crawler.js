@@ -10,6 +10,8 @@ let self
 let MovieList = [];
 let page = 1;
 
+let streamCrawlCallback
+
 ipc.on('receiveMovies', (_, movies) => {
 	MovieList = MovieList.concat(movies);
 	console.log("movies count: ",MovieList.length);
@@ -21,16 +23,17 @@ ipc.on('receiveMovies', (_, movies) => {
 	};
 });
 
-ipc.on('receiveMovieURL', (_, movieURL) => {
-	console.log("receiveMovieURL: ",movieURL);
+ipc.on('receiveMovieURL', (_, movie) => {
+	console.log("receiveMovieURL: ",movie);
 	listCrawler.loadURL("about:blank");
+	streamCrawlCallback(movie.socket,movie.url);
 });
 
 
 function Crawler(app, BrowserWindow){
 	var crawler = {
 		crawlMovieList: function(page){
-			listCrawler = listCrawler || new BrowserWindow({width: 1400, height: 800, show: true});	
+			listCrawler = listCrawler || new BrowserWindow({width: 1400, height: 800, show: false});	
 			listCrawler.webContents.openDevTools();
 
 			listCrawler.loadURL("http://hdfilme.tv/movie-movies?order_f=imdb&order_d=desc&page=" + page);
@@ -59,9 +62,11 @@ function Crawler(app, BrowserWindow){
 		getMovieList: function(){
 			return MovieList;
 		},
-		crawlMovieURL: function(socket,movie){
-			listCrawler = listCrawler || new BrowserWindow({width: 1400, height: 800, show: true});	
+		crawlMovieURL: function(socket,movie,callback){
+			listCrawler = listCrawler || new BrowserWindow({width: 1400, height: 800, show: false});	
 			listCrawler.webContents.openDevTools();
+
+			streamCrawlCallback = callback;
 
 			listCrawler.loadURL(movie.url.replace(/-info/i,'-stream'));
 
