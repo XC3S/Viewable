@@ -6,10 +6,12 @@
 		<link rel="dns-prefetch" href="https://maxcdn.bootstrapcdn.com">
 
 		<title>Viewable</title>
-		<link rel="shortcut icon" type="image/png" href="/images/icon.png"/>
+		<link rel="shortcut icon" type="image/png" href="/images/logo.png"/>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/css/depotList.css">
+		
+		<link rel="stylesheet" href="/css/movieList.css">
+		
 	</head>
 	<body>
 		<div class="ng-view"></div>
@@ -24,11 +26,16 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
 		<!-- apps -->
+		<script src="/js/application/application.js"></script>
+		<script src="/js/application/routing.js"></script>
 
 		<!-- core services -->
+		<script src="/js/network/socketService.js"></script>
 
 		<!-- high level services -->
+		<script src="/js/movie/movieService.js"></script>
 
 		<!-- controllers -->
+		<script src="/js/movie/movieController.js"></script>
 	</body>
 </html>

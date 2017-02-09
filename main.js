@@ -4,7 +4,7 @@ app.on('ready', function(){
 	var crawler = require("./crawler/crawler.js")(app, BrowserWindow);
 	var webserver = require("./server/webserver.js")(crawler);
 
-	crawler.getMovieList();
+	crawler.crawlMovieList();
 });
 
 /*

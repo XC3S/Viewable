@@ -1,27 +1,40 @@
 module.exports = Crawler
 
+const _ = require('underscore-node');
+
 let listCrawler;
 let ipc = require('electron').ipcMain;
 
-let MovieList
+let self
+
+let MovieList = [];
+let page = 1;
 
 ipc.on('receiveMovies', (_, movies) => {
-	MovieList = movies
-	console.log("receiveMovies: ",movies.length);
+	MovieList = MovieList.concat(movies);
+	console.log("movies count: ",MovieList.length);
 	//crawlStreamURL(movies[0]);
+	if (movies && movies.length > 0) {
+		page++;
+		//self.crawlMovieList(page);	
+		//console.log(self);
+	};
 });
 
 ipc.on('receiveMovieURL', (_, movieURL) => {
 	console.log("receiveMovieURL: ",movieURL);
-	listCrawler.close();
-	//win.loadURL(movieURL);
+	listCrawler.loadURL("about:blank");
 });
 
+
 function Crawler(app, BrowserWindow){
-	return {
-		getMovieList: function(){
-			listCrawler = new BrowserWindow({width: 1400, height: 800, show: false});	
-			listCrawler.loadURL("http://hdfilme.tv/movie-movies?page=1");
+	var crawler = {
+		crawlMovieList: function(page){
+			listCrawler = listCrawler || new BrowserWindow({width: 1400, height: 800, show: true});	
+			listCrawler.webContents.openDevTools();
+
+			listCrawler.loadURL("http://hdfilme.tv/movie-movies?order_f=imdb&order_d=desc&page=" + page);
+			console.log("page = ",page);
 
 			listCrawler.webContents.on('dom-ready', () => {
 				listCrawler.webContents.executeJavaScript(`
@@ -42,6 +55,32 @@ function Crawler(app, BrowserWindow){
 					);
 				`);
 			});
+		},
+		getMovieList: function(){
+			return MovieList;
+		},
+		crawlMovieURL: function(socket,movie){
+			listCrawler = listCrawler || new BrowserWindow({width: 1400, height: 800, show: true});	
+			listCrawler.webContents.openDevTools();
+
+			listCrawler.loadURL(movie.url.replace(/-info/i,'-stream'));
+
+			listCrawler.webContents.on('dom-ready', () => {
+				listCrawler.webContents.executeJavaScript(`
+					//require('electron').ipcRenderer.send('eurusd', document.querySelector("#EURUSD_bid > span").firstChild.nodeValue);
+					//require('electron').ipcRenderer.send('receiveMovies', document.querySelector(".box-product a[href]").firstChild.nodeValue);
+					require('electron').ipcRenderer.send('receiveMovieURL', 
+						(function(){
+							return {
+								url: document.querySelector("video").getAttribute("src"),
+								socket: '${socket.id}'
+							}
+						})()
+					);
+				`);
+			});
 		}
 	}
+	self = crawler;
+	return crawler;
 }
