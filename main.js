@@ -1,10 +1,13 @@
 const {app, BrowserWindow} = require('electron');
 
 app.on('ready', function(){
-	var crawler = require("./crawler/crawler.js")(app, BrowserWindow);
+	var listCrawler = listCrawler || new BrowserWindow({width: 1200, height: 800, show: false});	
+	//listCrawler.webContents.openDevTools();
+
+	var crawler = require("./crawler/crawler.js")(app, listCrawler);
 	var webserver = require("./server/webserver.js")(crawler);
 
-	crawler.crawlMovieList();
+	//crawler.crawlMovieList();
 });
 
 /*
