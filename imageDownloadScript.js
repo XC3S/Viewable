@@ -1,3 +1,4 @@
+// Downloads all movie covers on a hdmovie list page
 $(".products.row .box-product > a[href]").each(function(){
 	var path = $(this).find("img").attr("src");
 
@@ -6,5 +7,12 @@ $(".products.row .box-product > a[href]").each(function(){
 		console.log(path);
 		$(this).attr("href",path);
 		$(this).attr("download","");
+
+		var a = document.createElement('a');
+		a.href = path;
+		a.download = "";
+		document.body.appendChild(a);
+		a.click();
+		document.body.removeChild(a);
 	}
 });

@@ -8,7 +8,7 @@ let ipc = require('electron').ipcMain;
 
 let self
 
-let MovieList = JSON.parse(fs.readFileSync("movies_350.json", "utf8"));
+let MovieList = JSON.parse(fs.readFileSync("movies_1000.json", "utf8"));
 let page = 1;
 
 let streamCrawlCallback
@@ -18,7 +18,7 @@ ipc.on('receiveMovies', (_, movies) => {
 	console.log("movies count: ",MovieList.length);
 	//crawlStreamURL(movies[0]);
 	//if (movies && movies.length > 0) {
-	if (movies && movies.length > 3) {
+	if (movies && movies.length > 30) { // this is wrong (30 is the page not hte movie number)
 		page++;
 		self.crawlMovieList(page);	
 		//console.log(self);
@@ -59,7 +59,7 @@ function Crawler(app, listCrawler){
 			);
 		`);
 	});
-*/
+	*/
 
 	var crawler = {
 		crawlMovieList: function(page){
@@ -79,12 +79,6 @@ function Crawler(app, listCrawler){
 			//listCrawler.webContents.openDevTools();
 
 			streamCrawlCallback = callback;
-
-			listCrawler.loadURL(movie.url.replace(/-info/i,'-stream'));
-
-			console.log("----------------------------------- start");
-			console.log(listCrawler.webContents);
-			console.log("----------------------------------- end");
 
 			function myEvent(){
 				listCrawler.webContents.executeJavaScript(`
