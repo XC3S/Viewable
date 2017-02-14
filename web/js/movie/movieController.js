@@ -19,10 +19,6 @@ var movieController = function($scope,$movie,$socket){
 	$scope.loadMovie = function(movie){
 		$movie.loadMovie(movie);
 	}
-
-	$scope.searchFilter = function(){
-
-	}
 }
 
 app.controller("movieController",movieController);
