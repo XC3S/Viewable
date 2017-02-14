@@ -1,5 +1,18 @@
 <div ng-controller="movieController">
 	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 header">
+				<div class="header-item active">
+					Movies
+				</div>
+				<div class="header-item">
+					Series
+				</div>
+				<div class="header-search">
+					<input type="search" ng-model="searchinput">
+				</div>
+			</div>
+		</div>
 		<!--
 		<div class="row">
 			<div class="col-12">
@@ -7,8 +20,8 @@
 			</div>
 		</div>
 		-->
-		<div class="row">
-			<div class="col-2 movie" ng-repeat="movie in getMovies()">
+		<div class="row movies">
+			<div class="col-2 movie" ng-repeat="movie in getMovies() | filter: {name: searchinput}">
 				<img ng-src="/images/covers/{{movie.img}}" ng-click="loadMovie(movie)" title="{{movie.name}}">
 			</div>
 		</div>
