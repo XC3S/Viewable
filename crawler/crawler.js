@@ -36,6 +36,10 @@ ipc.on('receiveMovieURL', (_, movie) => {
 	streamCrawlCallback(movie.socket,movie.url);
 });
 
+ipc.on('receiveError',(_,error) => {
+	console.log("receiveError: ",error);
+});
+
 
 function Crawler(app, listCrawler){
 	listCrawlerRef = listCrawler;
@@ -80,10 +84,24 @@ function Crawler(app, listCrawler){
 
 			streamCrawlCallback = callback;
 
+			listCrawler.loadURL(movie.url);
+
 			function myEvent(){
 				listCrawler.webContents.executeJavaScript(`
 					//require('electron').ipcRenderer.send('eurusd', document.querySelector("#EURUSD_bid > span").firstChild.nodeValue);
 					//require('electron').ipcRenderer.send('receiveMovies', document.querySelector(".box-product a[href]").firstChild.nodeValue);
+
+					// check for 
+					// <div class="jw-title-primary jw-reset">Error loading player: No playable sources found</div>
+					if($(".jw-error")){
+						require('electron').ipcRenderer.send('receiveError', 
+							(function(){
+								return "Movie not avialable";
+							})()
+						);
+					}					
+
+					// find movie url
 					require('electron').ipcRenderer.send('receiveMovieURL', 
 						(function(){
 							return {
