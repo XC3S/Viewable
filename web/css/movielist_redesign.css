@@ -1,0 +1,48 @@
+:root,body {
+	padding: 0;
+	margin: 0;
+	font-size: calc(2vmin + 10px)
+}
+
+.movie-page {
+	background-color: #000;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+
+.sidebar {
+	background-color: #3c4451;
+	flex: 0 1 auto;
+	color: #fff;
+}
+
+.sidebar-header {
+	height: 3rem;
+	width: 100%;
+	background-color: #37D5B4;
+}
+
+.sidebar-content {
+	padding: 1em;
+}
+
+.content {
+	flex: 1 1;
+	overflow: auto;
+}
+
+.content-header {
+	height: 3rem;
+	width: 100%;
+	background-color: #3c4451;
+}
+
+.movie {
+	width: 20%;
+	height: 500px;
+
+	float: left;
+	background-size: cover;
+	background-position: center;
+}

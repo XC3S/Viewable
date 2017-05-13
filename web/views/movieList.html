@@ -1,4 +1,9 @@
 <div ng-controller="movieController">
+	<!--
+	<div class="loadingOverlay" ng-show="loading">
+		Loading ...
+	</div>
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 header">
@@ -13,16 +18,29 @@
 				</div>
 			</div>
 		</div>
-		<!--
-		<div class="row">
-			<div class="col-12">
-				<h1>Movies ({{getMovies().length}})</h1>
-			</div>
-		</div>
-		-->
 		<div class="row movies">
 			<div class="col-2 movie" ng-repeat="movie in getMovies() | filter: {name: searchinput}">
 				<img ng-src="/images/covers/{{movie.img}}" ng-click="loadMovie(movie)" title="{{movie.name}}">
+			</div>
+		</div>
+	</div>
+	-->
+	<div class="movie-page">
+		<div class="sidebar">
+			<div class="sidebar-header">
+				
+			</div>
+			<div class="sidebar-content">
+				hallo world
+			</div>
+			
+		</div>
+		<div class="content">
+			<div class="content-header">
+				
+			</div>
+			<div class="movie" ng-repeat="movie in getMovies() | limitTo: 20" style="background-image: url('/images/covers/{{movie.img}}') ;">
+				
 			</div>
 		</div>
 	</div>
