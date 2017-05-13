@@ -32,7 +32,8 @@ ipc.on('receiveMovies', (_, movies) => {
 
 ipc.on('receiveMovieURL', (_, movie) => {
 	console.log("receiveMovieURL: ",movie);
-	listCrawlerRef.loadURL("about:blank");
+	listCrawlerRef.loadURL("http://hdfilme.tv/");
+	//listCrawlerRef.loadURL("about:blank");
 	streamCrawlCallback(movie.socket,movie.url);
 });
 
@@ -87,29 +88,51 @@ function Crawler(app, listCrawler){
 			listCrawler.loadURL(movie.url);
 
 			function myEvent(){
-				listCrawler.webContents.executeJavaScript(`
-					//require('electron').ipcRenderer.send('eurusd', document.querySelector("#EURUSD_bid > span").firstChild.nodeValue);
-					//require('electron').ipcRenderer.send('receiveMovies', document.querySelector(".box-product a[href]").firstChild.nodeValue);
+				listCrawler.webContents.executeJavaScript(`					
+					// inject jquery (seem like its missing if i load the page with electron)
+					(function(d, script) {
+					    script = d.createElement('script');
+					    script.type = 'text/javascript';
+					    script.async = true;
+					    script.onload = function(){
+					        // remote script has loaded
+					    };
+					    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js';
+					    d.getElementsByTagName('head')[0].appendChild(script);
+					}(document));
 
-					// check for 
-					// <div class="jw-title-primary jw-reset">Error loading player: No playable sources found</div>
-					if($(".jw-error")){
-						require('electron').ipcRenderer.send('receiveError', 
-							(function(){
-								return "Movie not avialable";
-							})()
-						);
-					}					
+					setTimeout(function(){
+						// execute the movieloading script again
+						$("#mediaplayer > script").each(function(i,e){eval(e.innerHTML)});
 
-					// find movie url
-					require('electron').ipcRenderer.send('receiveMovieURL', 
-						(function(){
-							return {
-								url: document.querySelector("video").getAttribute("src"),
-								socket: '${socket.id}'
+						setTimeout(function(){
+							// check for 
+							// <div class="jw-title-primary jw-reset">Error loading player: No playable sources found</div>
+							/*
+							if($(".jw-error")){
+								require('electron').ipcRenderer.send('receiveError', 
+									(function(){
+										return "Movie not avialable";
+									})()
+								);
 							}
-						})()
-					);
+							*/					
+
+							// find movie url
+							require('electron').ipcRenderer.send('receiveMovieURL', 
+								(function(){
+									return {
+										url: document.querySelector("video").getAttribute("src"),
+										socket: '${socket.id}'
+									}
+								})()
+							);
+						},1000);
+
+
+					},500);
+
+
 				`);	
 				//listCrawler.webContents.removeEventListener('dom-ready', myEvent);
 			}
