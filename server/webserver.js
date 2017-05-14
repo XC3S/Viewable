@@ -7,7 +7,7 @@ var io = require('socket.io')(server);
 
 function webServerProvider(crawler){
 	// launch server
-	server.listen(3000,function(){
+	server.listen(80,function(){
 		console.log("webserver started!");
 	});
 
