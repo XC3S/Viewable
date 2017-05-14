@@ -31,16 +31,21 @@
 				
 			</div>
 			<div class="sidebar-content">
-				hallo world
-			</div>
-			
+				<h2>Genre</h2>
+				<ul>
+					<li ng-repeat="genre in genres">{{genre}}</li>
+				</ul>
+			</div>			
 		</div>
 		<div class="content">
 			<div class="content-header">
-				
+				<input type="search" ng-model="searchinput" class="searchbox" placeholder="Search movies">
 			</div>
-			<div class="movie" ng-repeat="movie in getMovies() | limitTo: 20" style="background-image: url('/images/covers/{{movie.img}}') ;">
-				
+			<div class="content-content">
+				<div class="movie" aspect-radio="0.7" ng-repeat="movie in getMovies() | limitTo: 100  | filter: {name: searchinput}" style="background-image: url('/images/covers/{{movie.img}}');" ng-click="loadMovie(movie)" title="{{movie.name}}"></div>
+				<div class="loading" ng-class="{active: !loading}">
+					<span>Loading...</span>
+				</div>
 			</div>
 		</div>
 	</div>

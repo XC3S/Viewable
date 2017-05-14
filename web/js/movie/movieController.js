@@ -2,6 +2,16 @@ var movieController = function($scope,$movie,$socket){
 	$scope.vidUrl = "test";
 	$scope.loading = false;
 
+	$scope.genres = [
+		"Alle",
+		"Action",
+		"Abenteuer",
+		"Drama",
+		"Horror",
+		"Fantasy",
+		"Animation"
+	]
+
 	$socket.on('receiveStream',function(url){
 		//$scope.vidUrl = url;
 		$scope.loading = false;
@@ -15,6 +25,10 @@ var movieController = function($scope,$movie,$socket){
 	});
 
 	$scope.getMovies = function(){
+
+		//trigger resize to force recalulate the aspect radio
+		$(window).resize();
+
 		return $movie.getMovies();
 	}
 

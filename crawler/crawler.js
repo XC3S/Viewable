@@ -130,7 +130,7 @@ function Crawler(app, listCrawler){
 						},1000);
 
 
-					},500);
+					},1500);
 
 
 				`);	
