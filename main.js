@@ -7,6 +7,8 @@ app.on('ready', function(){
 	var crawler = require("./crawler/crawler.js")(app, listCrawler);
 	var webserver = require("./server/webserver.js")(crawler);
 
+	listCrawler.loadURL("http://hdfilme.tv/");
+
 	//crawler.crawlMovieList();
 });
 

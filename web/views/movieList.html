@@ -25,7 +25,7 @@
 		</div>
 	</div>
 	-->
-	<div class="movie-page">
+	<div class="movie-page" ng-hide="watching">
 		<div class="sidebar">
 			<div class="sidebar-header">
 				
@@ -42,11 +42,15 @@
 				<input type="search" ng-model="searchinput" class="searchbox" placeholder="Search movies">
 			</div>
 			<div class="content-content">
-				<div class="movie" aspect-radio="0.7" ng-repeat="movie in getMovies() | limitTo: 100  | filter: {name: searchinput}" style="background-image: url('/images/covers/{{movie.img}}');" ng-click="loadMovie(movie)" title="{{movie.name}}"></div>
+				<div class="movie" aspect-radio="0.7" ng-repeat="movie in getMovies() | limitTo: 200  | filter: {name: searchinput}" style="background-image: url('/images/covers/{{movie.img}}');" ng-click="loadMovie(movie)" title="{{movie.name}}"></div>
 				<div class="loading" ng-class="{active: !loading}">
 					<span>Loading...</span>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="stage" ng-show="watching">
+		<div id="player">Loading the player...</div>
+		<div ng-click="backToList()">BACK</div>
 	</div>
 </div>

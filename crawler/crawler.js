@@ -8,7 +8,7 @@ let ipc = require('electron').ipcMain;
 
 let self
 
-let MovieList = JSON.parse(fs.readFileSync("movies_1000.json", "utf8"));
+let MovieList = JSON.parse(fs.readFileSync("test.json", "utf8"));
 let page = 1;
 
 let streamCrawlCallback
@@ -40,6 +40,12 @@ ipc.on('receiveMovieURL', (_, movie) => {
 ipc.on('receiveError',(_,error) => {
 	console.log("receiveError: ",error);
 });
+
+ipc.on('test',(_,test) => {
+	console.log("test: ",test);
+	streamCrawlCallback(test.socket,test);
+});
+
 
 
 function Crawler(app, listCrawler){
@@ -81,12 +87,13 @@ function Crawler(app, listCrawler){
 		},
 		crawlMovieURL: function(socket,movie,callback){
 			//listCrawler = listCrawler || new BrowserWindow({width: 1400, height: 800, show: false});	
-			//listCrawler.webContents.openDevTools();
+			listCrawler.webContents.openDevTools();
 
 			streamCrawlCallback = callback;
 
 			listCrawler.loadURL(movie.url);
 
+			/*
 			function myEvent(){
 				listCrawler.webContents.executeJavaScript(`					
 					// inject jquery (seem like its missing if i load the page with electron)
@@ -106,18 +113,6 @@ function Crawler(app, listCrawler){
 						$("#mediaplayer > script").each(function(i,e){eval(e.innerHTML)});
 
 						setTimeout(function(){
-							// check for 
-							// <div class="jw-title-primary jw-reset">Error loading player: No playable sources found</div>
-							/*
-							if($(".jw-error")){
-								require('electron').ipcRenderer.send('receiveError', 
-									(function(){
-										return "Movie not avialable";
-									})()
-								);
-							}
-							*/					
-
 							// find movie url
 							require('electron').ipcRenderer.send('receiveMovieURL', 
 								(function(){
@@ -133,8 +128,38 @@ function Crawler(app, listCrawler){
 					},1500);
 
 
-				`);	
-				//listCrawler.webContents.removeEventListener('dom-ready', myEvent);
+				`);
+			}
+			*/
+
+			function myEvent(){
+				listCrawler.webContents.executeJavaScript(`	
+					// inject jquery (seem like its missing if i load the page with electron)
+					
+					(function(d, script) {
+					    script = d.createElement('script');
+					    script.type = 'text/javascript';
+					    script.async = true;
+					    script.onload = function(){
+					        // remote script has loaded
+					    };
+					    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js';
+					    d.getElementsByTagName('head')[0].appendChild(script);
+					}(document));
+					setTimeout(function(){
+						var movieid = 374;
+                        var episode = 1;
+
+                        $.get("/movie/getlink/" + movieid + "/" + episode, function(data){
+                        	console.log("data:",data); // works
+                        	require('electron').ipcRenderer.send('test', {
+                        		data: data,
+                        		socket: '${socket.id}'
+                        	});
+                        })
+                        
+					},5000);
+				`);
 			}
 
 			listCrawler.webContents.once('dom-ready', myEvent);
