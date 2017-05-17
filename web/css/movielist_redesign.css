@@ -118,4 +118,8 @@
 
 	color: rgba(0,0,0,0);
 	margin-right: 0.5em;
-};
+}
+
+.genre-item.active {
+	color: #37D5B4;
+}

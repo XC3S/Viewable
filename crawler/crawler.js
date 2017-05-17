@@ -87,11 +87,11 @@ function Crawler(app, listCrawler){
 		},
 		crawlMovieURL: function(socket,movie,callback){
 			//listCrawler = listCrawler || new BrowserWindow({width: 1400, height: 800, show: false});	
-			listCrawler.webContents.openDevTools();
+			//listCrawler.webContents.openDevTools();
 
 			streamCrawlCallback = callback;
 
-			listCrawler.loadURL(movie.url);
+			//listCrawler.loadURL(movie.url);
 
 			/*
 			function myEvent(){
@@ -132,9 +132,8 @@ function Crawler(app, listCrawler){
 			}
 			*/
 
-			function myEvent(){
-				listCrawler.webContents.executeJavaScript(`	
-					// inject jquery (seem like its missing if i load the page with electron)
+			/*
+				// inject jquery (seem like its missing if i load the page with electron)
 					
 					(function(d, script) {
 					    script = d.createElement('script');
@@ -147,22 +146,27 @@ function Crawler(app, listCrawler){
 					    d.getElementsByTagName('head')[0].appendChild(script);
 					}(document));
 					setTimeout(function(){
-						var movieid = 374;
-                        var episode = 1;
 
-                        $.get("/movie/getlink/" + movieid + "/" + episode, function(data){
+					},5000);
+			*/
+
+
+			//function myEvent(){
+				var movieid = movie.movieId;
+                var episode = 1;
+
+				listCrawler.webContents.executeJavaScript(`
+                        $.get("/movie/getlink/" + ${movieid} + "/" + ${episode}, function(data){
                         	console.log("data:",data); // works
                         	require('electron').ipcRenderer.send('test', {
                         		data: data,
                         		socket: '${socket.id}'
                         	});
                         })
-                        
-					},5000);
 				`);
-			}
+			//}
 
-			listCrawler.webContents.once('dom-ready', myEvent);
+			//listCrawler.webContents.once('dom-ready', myEvent);
 		}
 	}
 	self = crawler;

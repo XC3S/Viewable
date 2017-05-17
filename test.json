@@ -3,822 +3,959 @@
       "img":"09aef21d22394b0d28f09cba6e88fd8c.jpg",
       "name":"Inception (2010)",
       "url":"http://hdfilme.tv/inception-2010-273-stream",
-      "movieId":"273"
+      "movieId":"273",
+      "genre":["Sci-Fi","Thriller"]
    },
     {  
       "img":"961d6ed13e2f0f4febdaaa0eaba5a465.jpg",
       "name":"Interstellar (2014)",
       "url":"http://hdfilme.tv/interstellar-2014-209-stream",
-      "movieId":"209"
+      "movieId":"209",
+      "genre":["Drama","Sci-Fi"]
    },
    {  
       "img":"e31a3e2a7e1bcebcb8acde51808b323a.jpg",
       "name":"King Kong (2005)",
       "url":"http://hdfilme.tv/king-kong-2005-1995-stream",
-      "movieId":"1995"
+      "movieId":"1995",
+      "genre":["Drama","Fantasy","Abenteuer","Action"]
    },
    {  
       "img":"e749baa3b8ce1970cfa8d294fc2c63a8.jpg",
       "name":"Fight Club (1999)",
       "url":"http://hdfilme.tv/fight-club-1999-355-stream",
-      "movieId":"355"
+      "movieId":"355",
+      "genre":["Drama","Thriller"]
    },
    {  
       "img":"61dddc59a759f04981b403f39b363a76.jpg",
       "name":"City of God (2002)",
       "url":"http://hdfilme.tv/city-of-god-2002-3633-stream",
-      "movieId":"3633"
+      "movieId":"3633",
+      "genre":["Drama"]
    },
    {  
       "img":"5599ced772dc707850186e64156af5aa.jpg",
       "name":"Chihiros Reise ins Zauberland (2001)",
       "url":"http://hdfilme.tv/chihiros-reise-ins-zauberland-2001-2098-stream",
-      "movieId":"2098"
+      "movieId":"2098",
+      "genre":["Fanatasy","Abenteuer","Animation"]
    },
    {  
       "img":"f5a188615b93126bc397a64abc65f524.jpg",
       "name":"La La Land (2016)",
       "url":"http://hdfilme.tv/la-la-land-2016-4506-stream",
-      "movieId":"4506"
+      "movieId":"4506",
+      "genre":["Musical","Romanze"]
    },
    {  
       "img":"13c32707c765a53ba2f339d12ce490c2.jpg",
       "name":"The Dark Knight Rises (2012)",
       "url":"http://hdfilme.tv/the-dark-knight-rises-2012-175-stream",
-      "movieId":"175"
+      "movieId":"175",
+      "genre":["Action","Thriller"]
    },
    {  
       "img":"bffabced004a538104abba3e35a46d30.jpg",
       "name":"The First Avenger: Civil War (2016)",
       "url":"http://hdfilme.tv/the-first-avenger-civil-war-2016-882-stream",
-      "movieId":"882"
+      "movieId":"882",
+      "genre":["Fantasy","Action"]
    },
    {  
       "img":"2566cfe62ba62fc42fa8714dfdf0c352.jpg",
       "name":"Departed - Unter Feinden (2006)",
       "url":"http://hdfilme.tv/departed-unter-feinden-2006-1265-stream",
-      "movieId":"1265"
+      "movieId":"1265",
+      "genre":["Drama","Krimi","Thriller"]
    },
    {  
       "img":"25ff29fc37676b7d69ebd7f12efcaddb.jpg",
       "name":"Django Unchained (2013)",
       "url":"http://hdfilme.tv/django-unchained-2013-3101-stream",
-      "movieId":"3101"
+      "movieId":"3101",
+      "genre":["Western"]
    },
    {  
       "img":"38ea86cd5f5d0c81d9948b48fb530171.jpg",
       "name":"Prestige - Die Meister der Magie (2006)",
       "url":"http://hdfilme.tv/prestige-die-meister-der-magie-2006-3542-stream",
-      "movieId":"3542"
+      "movieId":"3542",
+      "genre":["Drama","Fantasy","Thriller"]
    },
    {  
       "img":"cb5933b1b7bfe5e063effda7679492df.jpg",
       "name":"Alien - Das unheimliche Wesen aus einer fremden Welt (1979)",
       "url":"http://hdfilme.tv/alien-das-unheimliche-wesen-aus-einer-fremden-welt-1979-4143-stream",
-      "movieId":"4143"
+      "movieId":"4143",
+      "genre":["Horror","Sci-Fi"]
    },
    {  
       "img":"eb30c9f1ac34b5f72774716703c28212.jpg",
       "name":"Prinzessin Mononoke (1997)",
       "url":"http://hdfilme.tv/prinzessin-mononoke-1997-223-stream",
-      "movieId":"223"
+      "movieId":"223",
+      "genre":["Drama","Fantasy","Animation"]
    },
    {  
       "img":"18a87c632424f90ce3ed2e7c2c473c1f.jpg",
       "name":"Die fabelhafte Welt der Amelie (2001)",
       "url":"http://hdfilme.tv/die-fabelhafte-welt-der-amelie-2001-1607-stream",
-      "movieId":"1607"
+      "movieId":"1607",
+      "genre":["Komödie"]
    },
    {  
       "img":"07390c9fb944f921c707efeccbe16bee.jpg",
       "name":"American Beauty (1999)",
       "url":"http://hdfilme.tv/american-beauty-1999-2793-stream",
-      "movieId":"2793"
+      "movieId":"2793",
+      "genre":["Drama","Romanze"]
    },
    {  
       "img":"d06f2c0c805e4b081a55e2789b2fadab.jpg",
       "name":"Hacksaw Ridge (2017)",
       "url":"http://hdfilme.tv/hacksaw-ridge-2017-3391-stream",
-      "movieId":"3391"
+      "movieId":"3391",
+      "genre":["Drama","Krieg"]
    },
    {  
       "img":"6202361ad9382c3d04f469c5e5419586.jpg",
       "name":"Aliens - Die Rückkehr (1986)",
       "url":"http://hdfilme.tv/aliens-die-rckkehr-4144-stream",
-      "movieId":"4144"
+      "movieId":"4144",
+      "genre":["Horror","Action","Sci-Fi"]
    },
    {  
       "img":"ff7f0a48908ddba2c1d16535f31c9fb8.jpg",
       "name":"Mad Max Fury Road (2015)",
       "url":"http://hdfilme.tv/mad-max-fury-road-2015-158-stream",
-      "movieId":"158"
+      "movieId":"158",
+      "genre":["Action","Sci-Fi"]
    },
    {  
       "img":"90621b93303896a4518488edfef624ac.jpg",
       "name":"Batman Begins (2005)",
       "url":"http://hdfilme.tv/batman-begins-2005-263-stream",
-      "movieId":"263"
+      "movieId":"263",
+      "genre":["Abenteuer","Action","Thriller"]
    },
    {  
       "img":"667f5b32deddc1de7c1ed0b283e2fb1c.jpg",
       "name":"Die Jagd (2012)",
       "url":"http://hdfilme.tv/die-jagd-2012-3152-stream",
-      "movieId":"3152"
+      "movieId":"3152",
+      "genre":["Drama","Thriller"]
    },
    {  
       "img":"019052b52d0745ca08ca936088025219.jpg",
       "name":"Inglourious Basterds (2009)",
       "url":"http://hdfilme.tv/inglourious-basterds-2009-3308-stream",
-      "movieId":"3308"
+      "movieId":"3308",
+      "genre":["Action","Krieg"]
    },
    {  
       "img":"f7f4e72087cc3207b1c87cd3bbc2d25c.jpg",
       "name":"Mein Nachbar Totoro (1988)",
       "url":"http://hdfilme.tv/mein-nachbar-totoro-1988-2116-stream",
-      "movieId":"2116"
+      "movieId":"2116",
+      "genre":["Fantasy","Abenteuer","Animation"]
    },
    {  
       "img":"21ccc8393085b51138d89c8e8083e3e2.jpg",
       "name":"The Wolf Of Wall Street 2013 HD",
       "url":"http://hdfilme.tv/the-wolf-of-wall-street-2013-hd-339-stream",
-      "movieId":"339"
+      "movieId":"339",
+      "genre":["Drama","Krimi"]
    },
    {  
       "img":"3393222ad7feab65f601f102c3ad857d.jpg",
       "name":"Der Marsianer - Rettet Mark Watney (2015)",
       "url":"http://hdfilme.tv/der-marsianer-rettet-mark-watney-2015-441-stream",
-      "movieId":"441"
+      "movieId":"441",
+      "genre":["Abenteuer","Sci-Fi","Thriller"]
    },
    {  
       "img":"d9b5eb8e6bf23ce07938595475cd3341.jpg",
       "name":"Deadpool",
       "url":"http://hdfilme.tv/deadpool-2016-hd-1016-stream",
-      "movieId":"1016"
+      "movieId":"1016",
+      "genre":["Fantasy","Komödie","Abenteuer","Action"]
    },
    {  
       "img":"9aa26154536dca2d2dee3dda95b3cd98.jpg",
       "name":"Pans Labyrinth (2006)",
       "url":"http://hdfilme.tv/pans-labyrinth-2006-2154-stream",
-      "movieId":"2154"
+      "movieId":"2154",
+      "genre":["Fantasy","Horror"]
    },
    {  
       "img":"1f08128a052c7414375d1d8352c68ebe.jpg",
       "name":"Arrival (2016)",
       "url":"http://hdfilme.tv/arrival-2016-2563-stream",
-      "movieId":"2563"
+      "movieId":"2563",
+      "genre":["Sci-Fi"]
    },
    {  
       "img":"48719e3cc2996cdebfb3bf12bbeda203.jpg",
       "name":"Gran Torino (2008)",
       "url":"http://hdfilme.tv/gran-torino-2008-2868-stream",
-      "movieId":"2868"
+      "movieId":"2868",
+      "genre":["Drama","Thriller"]
    },
    {  
       "img":"4cfc3a517eba61f8dd5aed28fda45cd1.jpg",
       "name":"Trainspotting - Neue Helden (1996)",
       "url":"http://hdfilme.tv/trainspotting-neue-helden-1996-2910-stream",
-      "movieId":"2910"
+      "movieId":"2910",
+      "genre":["Drama","Krimi"]
    },
    {  
       "img":"fb3440153c5206e79a65f0a6b0a6b207.jpg",
       "name":"The Big Lebowski (1998)",
       "url":"http://hdfilme.tv/the-big-lebowski-1998-3616-stream",
-      "movieId":"3616"
+      "movieId":"3616",
+      "genre":["Komödie","Krimi"]
    },
    {  
       "img":"6a215d7f502966fd7867cd778b595b0d.png",
       "name":"Blade Runner (1982)",
       "url":"http://hdfilme.tv/blade-runner-1982-3672-stream",
-      "movieId":"3672"
+      "movieId":"3672",
+      "genre":[]
    },
    {  
       "img":"af1e83fbe35cb8fb43670ee2e124273c.jpg",
       "name":"Guardians Of The Galaxy (2014)",
       "url":"http://hdfilme.tv/guardians-of-the-galaxy-2014-203-stream",
-      "movieId":"203"
+      "movieId":"203",
+      "genre":[]
    },
    {  
       "img":"6fca0c5697b0a1add5636d06ba3fe353.jpg",
       "name":"The Imitation Game - Ein streng geheimes Leben (2014)",
       "url":"http://hdfilme.tv/the-imitation-game-ein-streng-geheimes-leben-2014-224-stream",
-      "movieId":"224"
+      "movieId":"224",
+      "genre":[]
    },
    {  
       "img":"d530916dee6b9ae5bad075e593bc9594.jpg",
       "name":"Shutter Island (2010)",
       "url":"http://hdfilme.tv/shutter-island-2010-237-stream",
-      "movieId":"237"
+      "movieId":"237",
+      "genre":[]
    },
    {  
       "img":"fdd6649aad9f0c401672a1adbe031ac3.jpg",
       "name":"Harry Potter und die Heiligtümer des Todes - Teil 2 (2011)",
       "url":"http://hdfilme.tv/harry-potter-und-die-heiligtümer-des-todes-teil-2-2011-370-stream",
-      "movieId":"370"
+      "movieId":"370",
+      "genre":[]
    },
    {  
       "img":"9b6189e82259cd0361dd228d8ad59f20.jpg",
       "name":"Sin City (2005)",
       "url":"http://hdfilme.tv/sin-city-2005-478-stream",
-      "movieId":"478"
+      "movieId":"478",
+      "genre":[]
    },
    {  
       "img":"21a44f4797a7736618d833e3df7dcdd9.jpg",
       "name":"The Avengers (2012)",
       "url":"http://hdfilme.tv/the-avengers-2012-1343-stream",
-      "movieId":"1343"
+      "movieId":"1343",
+      "genre":[]
    },
    {  
       "img":"6e5f2967f94d48d3ec42836adac28caa.jpg",
       "name":"Jurassic Park (1993)",
       "url":"http://hdfilme.tv/jurassic-park-1993-1732-stream",
-      "movieId":"1732"
+      "movieId":"1732",
+      "genre":[]
    },
    {  
       "img":"668ea82aebfeebac5296f0a604206856.jpg",
       "name":"Conjuring 2 (2016)",
       "url":"http://hdfilme.tv/conjuring-2-2016-1794-stream",
-      "movieId":"1794"
+      "movieId":"1794",
+      "genre":[]
    },
    {  
       "img":"a6e0d12ecaf2782fa435a06b96674048.jpg",
       "name":"12 Monkeys (1995)",
       "url":"http://hdfilme.tv/12-monkeys-1995-2051-stream",
-      "movieId":"2051"
+      "movieId":"2051",
+      "genre":[]
    },
    {  
       "img":"1d7ca35d76d09902dc221dac1d04fb9f.jpg",
       "name":"No Country For Old Men (2007)",
       "url":"http://hdfilme.tv/no-country-for-old-men-2007-2584-stream",
-      "movieId":"2584"
+      "movieId":"2584",
+      "genre":[]
    },
    {  
       "img":"73ed747b97e7059ff63ba2eefa6cb32b.jpg",
       "name":"Fluch der Karibik (2003)",
       "url":"http://hdfilme.tv/fluch-der-karibik-2003-2853-stream",
-      "movieId":"2853"
+      "movieId":"2853",
+      "genre":[]
    },
    {  
       "img":"665bb55badf2bf2c28762690e44b5b80.jpg",
       "name":"Rogue One: A Star Wars Story (2016)",
       "url":"http://hdfilme.tv/rogue-one-a-star-wars-story-2016-4204-stream",
-      "movieId":"4204"
+      "movieId":"4204",
+      "genre":[]
    },
    {  
       "img":"72b8bb48d0af3068f71443dc177265a7.jpg",
       "name":"Life of Pi Schiffbruch mit Tiger (2012)",
       "url":"http://hdfilme.tv/life-of-pi-schiffbruch-mit-tiger-2012-233-stream",
-      "movieId":"233"
+      "movieId":"233",
+      "genre":[]
    },
    {  
       "img":"76a4b192e3f367b3a4bf22cbc5321d3d.jpg",
       "name":"Der Hobbit - Smaugs Einöde (2013)",
       "url":"http://hdfilme.tv/der-hobbit-smaugs-einöde-2013-261-stream",
-      "movieId":"261"
+      "movieId":"261",
+      "genre":[]
    },
    {  
       "img":"baa4bb00c2832712b6d9463eb134790b.jpg",
       "name":"The Raid 2 (2015)",
       "url":"http://hdfilme.tv/the-raid-2-2015-444-stream",
-      "movieId":"444"
+      "movieId":"444",
+      "genre":[]
    },
    {  
       "img":"2914e82db059333d3109f8a2109f8cb4.jpg",
       "name":"The Hateful Eight (2016)",
       "url":"http://hdfilme.tv/the-hateful-eight-2016-910-stream",
-      "movieId":"910"
+      "movieId":"910",
+      "genre":[]
    },
    {  
       "img":"00aaf3cd2a5e1516c7c43cb17361056f.jpg",
       "name":"Dallas Buyers Club (2013)",
       "url":"http://hdfilme.tv/dallas-buyers-club-2013-1919-stream",
-      "movieId":"1919"
+      "movieId":"1919",
+      "genre":[]
    },
    {  
       "img":"29d761125811a55b72e16a2cd71ec2c9.jpg",
       "name":"Ghost In The Shell (1995)",
       "url":"http://hdfilme.tv/ghost-in-the-shell-1995-2139-stream",
-      "movieId":"2139"
+      "movieId":"2139",
+      "genre":[]
    },
    {  
       "img":"6b767280f70cfea37142662918c93e77.jpg",
       "name":"Black Swan (2011)",
       "url":"http://hdfilme.tv/black-swan-2011-2818-stream",
-      "movieId":"2818"
+      "movieId":"2818",
+      "genre":[]
    },
    {  
       "img":"b9323aafbb7140e31edfe24801b9080d.jpg",
       "name":"District 9 (2009)",
       "url":"http://hdfilme.tv/district-9-2009-2828-stream",
-      "movieId":"2828"
+      "movieId":"2828",
+      "genre":[]
    },
    {  
       "img":"2f11934a31e97bbf6ee45229d56baf58.jpg",
       "name":"Shaun of the Dead (2004)",
       "url":"http://hdfilme.tv/shaun-of-the-dead-2004-3167-stream",
-      "movieId":"3167"
+      "movieId":"3167",
+      "genre":[]
    },
    {  
       "img":"53d59698f2e68f4060d97719e504860a.jpg",
       "name":"Kill Bill Vol.2 (2004)",
       "url":"http://hdfilme.tv/kill-bill-vol-2-2004-3201-stream",
-      "movieId":"3201"
+      "movieId":"3201",
+      "genre":[]
    },
    {  
       "img":"8bcb081a92fe2f23726c3f79a10dd0eb.jpg",
       "name":"James Bond 007 - Casino Royale (2006)",
       "url":"http://hdfilme.tv/james-bond-007-casino-royale-2006-3549-stream",
-      "movieId":"3549"
+      "movieId":"3549",
+      "genre":[]
    },
    {  
       "img":"e310a16e4557790c3089ae4fd532dd13.jpg",
       "name":"Avatar - Aufbruch nach Pandora (2009)",
       "url":"http://hdfilme.tv/avatar-aufbruch-nach-pandora-2009-382-stream",
-      "movieId":"382"
+      "movieId":"382",
+      "genre":[]
    },
    {  
       "img":"de207c5e05e08a708a36c669bb31765b.jpg",
       "name":"Edge Of Tomorrow (2014)",
       "url":"http://hdfilme.tv/edge-of-tomorrow-2014-447-stream",
-      "movieId":"447"
+      "movieId":"447",
+      "genre":[]
    },
    {  
       "img":"2712e0a1fa9b1d3581cb27b83b5d6476.jpg",
       "name":"Creed - Rocky's Legacy",
       "url":"http://hdfilme.tv/creed-rocky-s-legacy-764-stream",
-      "movieId":"764"
+      "movieId":"764",
+      "genre":[]
    },
    {  
       "img":"43dcfd750fd798356754a275515b0782.jpg",
       "name":"Gravity (2013)",
       "url":"http://hdfilme.tv/gravity-2013-804-stream",
-      "movieId":"804"
+      "movieId":"804",
+      "genre":[]
    },
    {  
       "img":"2e308dbf393583326aa08a8b0e353164.jpg",
       "name":"Iron Man (2008)",
       "url":"http://hdfilme.tv/iron-man-2008-1367-stream",
-      "movieId":"1367"
+      "movieId":"1367",
+      "genre":[]
    },
    {  
       "img":"2c29c306ae3d8054741afd6624272566.jpg",
       "name":"Avengers 2 Age Of Ultron (2015)",
       "url":"http://hdfilme.tv/avengers-2-age-of-ultron-2015-154-stream",
-      "movieId":"154"
+      "movieId":"154",
+      "genre":[]
    },
    {  
       "img":"91a8fa80a817d6340692f13c1fe3aa3b.jpg",
       "name":"Birdman (2014)",
       "url":"http://hdfilme.tv/birdman-2014-191-stream",
-      "movieId":"191"
+      "movieId":"191",
+      "genre":[]
    },
    {  
       "img":"1d4f93e4a1c93deb5ec7bdd679f0ec5b.jpg",
       "name":"Kingsman: The Secret Service (2015)",
       "url":"http://hdfilme.tv/kingsman-the-secret-service-2015-211-stream",
-      "movieId":"211"
+      "movieId":"211",
+      "genre":[]
    },
    {  
       "img":"cd3d281bc2d176e1c9678832e012d5f8.jpg",
       "name":"Harry Potter und der Gefangene von Askaban (2004)",
       "url":"http://hdfilme.tv/harry-potter-und-der-gefangene-von-askaban-2004-358-stream",
-      "movieId":"358"
+      "movieId":"358",
+      "genre":[]
    },
    {  
       "img":"9c54deb598918664670a7836c7b78f7c.jpg",
       "name":"The LEGO Movie (2014)",
       "url":"http://hdfilme.tv/the-lego-movie-2014-454-stream",
-      "movieId":"454"
+      "movieId":"454",
+      "genre":[]
    },
    {  
       "img":"079c729866d6cd36f5f2f10e555c1971.jpg",
       "name":"Star Trek Into Darkness (2013)",
       "url":"http://hdfilme.tv/star-trek-into-darkness-2013-687-stream",
-      "movieId":"687"
+      "movieId":"687",
+      "genre":[]
    },
    {  
       "img":"659113b369e23f32709b6872c871eeb0.jpg",
       "name":"X-Men: First Class (2011)",
       "url":"http://hdfilme.tv/x-men-first-class-2011-1208-stream",
-      "movieId":"1208"
+      "movieId":"1208",
+      "genre":[]
    },
    {  
       "img":"1ac17ab921ad504156e09db87d864680.jpg",
       "name":"Captain America 2: The Winter Soldier (2014)",
       "url":"http://hdfilme.tv/captain-america-2-the-winter-soldier-2014-1346-stream",
-      "movieId":"1346"
+      "movieId":"1346",
+      "genre":[]
    },
    {  
       "img":"277168eff576ff03a9ca44fc49d07184.jpg",
       "name":"James Bond 007 - Skyfall (2012)",
       "url":"http://hdfilme.tv/james-bond-007-skyfall-2012-1649-stream",
-      "movieId":"1649"
+      "movieId":"1649",
+      "genre":[]
    },
    {  
       "img":"b38f9ae41a931b46a511291be52a5350.jpg",
       "name":"Apocalypto (2006)",
       "url":"http://hdfilme.tv/apocalypto-2006-1651-stream",
-      "movieId":"1651"
+      "movieId":"1651",
+      "genre":[]
    },
    {  
       "img":"f3bc0f40428ecb45621c7f3ff261492b.jpg",
       "name":"Warcraft: The Beginning (2016)",
       "url":"http://hdfilme.tv/warcraft-the-beginning-2016-1711-stream",
-      "movieId":"1711"
+      "movieId":"1711",
+      "genre":[]
    },
    {  
       "img":"a256e6d74a049e871ba81711304887d1.jpg",
       "name":"Hangover (2009)",
       "url":"http://hdfilme.tv/hangover-2009-2465-stream",
-      "movieId":"2465"
+      "movieId":"2465",
+      "genre":[]
    },
    {  
       "img":"7745f519a4f3b916027690f99f8aa138.jpg",
       "name":"Lucky # Slevin (2006)",
       "url":"http://hdfilme.tv/lucky-slevin-2006-3074-stream",
-      "movieId":"3074"
+      "movieId":"3074",
+      "genre":[]
    },
    {  
       "img":"88bb3441adc258ce97028a22c15b23ac.jpg",
       "name":"Ex Machina (2015) HD",
       "url":"http://hdfilme.tv/ex-machina-2015-hd-161-stream",
-      "movieId":"161"
+      "movieId":"161",
+      "genre":[]
    },
    {  
       "img":"5417a462361fcc11c6c8fff207de70ca.jpg",
       "name":"Die Entdeckung der Unendlichkeit (2014)",
       "url":"http://hdfilme.tv/die-entdeckung-der-unendlichkeit-2014-199-stream",
-      "movieId":"199"
+      "movieId":"199",
+      "genre":[]
    },
    {  
       "img":"b53e3cd0110ae6425a9a9232725cbf7a.jpg",
       "name":"Planet der Affen - Revolution (2014)",
       "url":"http://hdfilme.tv/planet-der-affen-revolution-2014-216-stream",
-      "movieId":"216"
+      "movieId":"216",
+      "genre":[]
    },
    {  
       "img":"54e74692279c459e4da72e31415e7772.jpg",
       "name":"300 (2006)",
       "url":"http://hdfilme.tv/300-2006-481-stream",
-      "movieId":"481"
+      "movieId":"481",
+      "genre":[]
    },
    {  
       "img":"ddc2b5a78b457ffcaa38a09daf675871.jpg",
       "name":"Zombieland (2009)",
       "url":"http://hdfilme.tv/zombieland-2009-2077-stream",
-      "movieId":"2077"
+      "movieId":"2077",
+      "genre":[]
    },
    {  
       "img":"173e6cfd0e21c597c3fdcf497ee427fc.jpg",
       "name":"Last Samurai (2003)",
       "url":"http://hdfilme.tv/last-samurai-2003-3203-stream",
-      "movieId":"3203"
+      "movieId":"3203",
+      "genre":[]
    },
    {  
       "img":"82dfc56784ec3f2c84d133e5b33b5b42.jpg",
       "name":"End of Watch (2012)",
       "url":"http://hdfilme.tv/end-of-watch-2012-3980-stream",
-      "movieId":"3980"
+      "movieId":"3980",
+      "genre":[]
    },
    {  
       "img":"310c318b51b8b24a3b508909ff18ce39.jpg",
       "name":"Who Am I - Kein System ist sicher",
       "url":"http://hdfilme.tv/who-am-i-kein-system-ist-sicher-225-stream",
-      "movieId":"225"
+      "movieId":"225",
+      "genre":[]
    },
    {  
       "img":"6e32d7017ef5399b1a14fbf052111243.jpg",
       "name":"Disconnect (2012)",
       "url":"http://hdfilme.tv/disconnect-2012-2138-stream",
-      "movieId":"2138"
+      "movieId":"2138",
+      "genre":[]
    },
    {  
       "img":"2586359106176fd45c17d5e8721b2570.jpg",
       "name":"Ghost in the Shell 2 - Innocence (2004)",
       "url":"http://hdfilme.tv/ghost-in-the-shell-2-innocence-2004-2140-stream",
-      "movieId":"2140"
+      "movieId":"2140",
+      "genre":[]
    },
    {  
       "img":"48847046f17ee191c96bc94d75aa632a.jpg",
       "name":"The Raid (2011)",
       "url":"http://hdfilme.tv/the-raid-2011-2403-stream",
-      "movieId":"2403"
+      "movieId":"2403",
+      "genre":[]
    },
    {  
       "img":"2627f42d0a4307c2e6d337e575c8cc14.jpg",
       "name":"Blood Diamond (2006)",
       "url":"http://hdfilme.tv/blood-diamond-2006-2816-stream",
-      "movieId":"2816"
+      "movieId":"2816",
+      "genre":[]
    },
    {  
       "img":"741021e86709a07d7032302e806cdccb.jpg",
       "name":"Die Kunst zu gewinnen - Moneyball (2011)",
       "url":"http://hdfilme.tv/die-kunst-zu-gewinnen-moneyball-2011-2995-stream",
-      "movieId":"2995"
+      "movieId":"2995",
+      "genre":[]
    },
    {  
       "img":"898b1cd4095ce4abaaa1203137b05fa5.jpg",
       "name":"Sherlock Holmes (2009)",
       "url":"http://hdfilme.tv/sherlock-holmes-2009-3083-stream",
-      "movieId":"3083"
+      "movieId":"3083",
+      "genre":[]
    },
    {  
       "img":"7fbeefd34736c9f41904af69b9a895cb.jpg",
       "name":"Der Hobbit Die Schlacht der Fünf Heere (2014)",
       "url":"http://hdfilme.tv/der-hobbit-die-schlacht-der-fünf-heere-2014-198-stream",
-      "movieId":"198"
+      "movieId":"198",
+      "genre":[]
    },
    {  
       "img":"f8c99f86618066872e4308497e25f05f.JPG",
       "name":"Ant-Man HD (2015)",
       "url":"http://hdfilme.tv/ant-man-hd-2015-412-stream",
-      "movieId":"412"
+      "movieId":"412",
+      "genre":[]
    },
    {  
       "img":"2582720d808fa44c0acb6cf02d601c52.jpg",
       "name":"Conjuring - Die Heimsuchung (2013)",
       "url":"http://hdfilme.tv/conjuring-die-heimsuchung-2013-759-stream",
-      "movieId":"759"
+      "movieId":"759",
+      "genre":[]
    },
    {  
       "img":"1f2ea3d089d085ba98a060af7a70aec8.jpg",
       "name":"Cloud Atlas (2012)",
       "url":"http://hdfilme.tv/cloud-atlas-2012-1907-stream",
-      "movieId":"1907"
+      "movieId":"1907",
+      "genre":[]
    },
    {  
       "img":"e026d7c089e1d84c33da2d396e5acef6.jpg",
       "name":"Equilibrium (2002)",
       "url":"http://hdfilme.tv/equilibrium-2002-2029-stream",
-      "movieId":"2029"
+      "movieId":"2029",
+      "genre":[]
    },
    {  
       "img":"0d41ce6938da15a0b4f4def6885909de.jpg",
       "name":"[REC] (2008)",
       "url":"http://hdfilme.tv/rec-2008-2501-stream",
-      "movieId":"2501"
+      "movieId":"2501",
+      "genre":[]
    },
    {  
       "img":"2624e363e2bd118e229a439b18fad015.jpg",
       "name":"A Nightmare on Elm Street (2010)",
       "url":"http://hdfilme.tv/a-nightmare-on-elm-street-2010-3246-stream",
-      "movieId":"3246"
+      "movieId":"3246",
+      "genre":[]
    },
    {  
       "img":"ce8563200bcc1181bbfa92b98590d9d1.jpg",
       "name":"Split (2017)",
       "url":"http://hdfilme.tv/split-2017-4624-stream",
-      "movieId":"4624"
+      "movieId":"4624",
+      "genre":[]
    },
    {  
       "img":"5742b3e3ed632c4ca72640128a22eec7.jpg",
       "name":"Everest (2015)",
       "url":"http://hdfilme.tv/everest-2015-380-stream",
-      "movieId":"380"
+      "movieId":"380",
+      "genre":[]
    },
    {  
       "img":"6f3400dc79fb8f9170db7bfa437cc22b.jpg",
       "name":"Star Trek Beyond (2016)",
       "url":"http://hdfilme.tv/star-trek-beyond-2016-895-stream",
-      "movieId":"895"
+      "movieId":"895",
+      "genre":[]
    },
    {  
       "img":"84a3480d65dee47f316f2b3190405c64.jpg",
       "name":"Pacific Rim (2013)",
       "url":"http://hdfilme.tv/pacific-rim-2013-971-stream",
-      "movieId":"971"
+      "movieId":"971",
+      "genre":[]
    },
    {  
       "img":"14f0673684cf68db6bcacad9ed3535c3.jpg",
       "name":"Looper (2012)",
       "url":"http://hdfilme.tv/looper-2012-1298-stream",
-      "movieId":"1298"
+      "movieId":"1298",
+      "genre":[]
    },
    {  
       "img":"a2b659f0a7a83da0674ce75eaa0b0a37.jpg",
       "name":"Gesetz der Rache (2009)",
       "url":"http://hdfilme.tv/gesetz-der-rache-2009-3452-stream",
-      "movieId":"3452"
+      "movieId":"3452",
+      "genre":[]
    },
    {  
       "img":"8028795caf3a6ee5729d3804e1bcd9c9.jpg",
       "name":"Master & Commander - Bis ans Ende der Welt (2003)",
       "url":"http://hdfilme.tv/master-commander-bis-ans-ende-der-welt-2003-4015-stream",
-      "movieId":"4015"
+      "movieId":"4015",
+      "genre":[]
    },
    {  
       "img":"a05c371be14d7318c4209abdda7cbe17.jpg",
       "name":"Jurassic World 4 (2015)",
       "url":"http://hdfilme.tv/jurassic-world-4-2015-155-stream",
-      "movieId":"155"
+      "movieId":"155",
+      "genre":[]
    },
    {  
       "img":"3a938b5096233e39eb8afe4c9c71b2b9.jpg",
       "name":"Iron Man 3 (2013)",
       "url":"http://hdfilme.tv/iron-man-3-2013-1369-stream",
-      "movieId":"1369"
+      "movieId":"1369",
+      "genre":[]
    },
    {  
       "img":"383fc5d41e82f2c6bb5bbbe745fabe75.jpg",
       "name":"Sunshine (2007)",
       "url":"http://hdfilme.tv/sunshine-2007-2784-stream",
-      "movieId":"2784"
+      "movieId":"2784",
+      "genre":[]
    },
    {  
       "img":"3302ccae11ca95b56b3c26ccc5cf9ed1.jpg",
       "name":"From Dusk till Dawn (1996)",
       "url":"http://hdfilme.tv/from-dusk-till-dawn-1996-3135-stream",
-      "movieId":"3135"
+      "movieId":"3135",
+      "genre":[]
    },
    {  
       "img":"4fcb3f97bc12d90b391153aa0101a47a.jpg",
       "name":"Maze Runner 2 - Die Auserwählten in der Brandwüste (2015)",
       "url":"http://hdfilme.tv/maze-runner-2-die-auserwählten-in-der-brandwüste-2015-232-stream",
-      "movieId":"232"
+      "movieId":"232",
+      "genre":[]
    },
    {  
       "img":"1c7fa09aad7ea98b5a27345924df6c34.jpg",
       "name":"John Wick (2014)",
       "url":"http://hdfilme.tv/john-wick-2014-299-stream",
-      "movieId":"299"
+      "movieId":"299",
+      "genre":[]
    },
    {  
       "img":"34444e3b12480d9040e5b5017e169daa.jpg",
       "name":"Man Of Steel (2013)",
       "url":"http://hdfilme.tv/man-of-steel-2013-1245-stream",
-      "movieId":"1245"
+      "movieId":"1245",
+      "genre":[]
    },
    {  
       "img":"acb879a5f5b495ce5271c412b22408b3.jpg",
       "name":"Shooter (2007)",
       "url":"http://hdfilme.tv/shooter-2007-1432-stream",
-      "movieId":"1432"
+      "movieId":"1432",
+      "genre":[]
    },
    {  
       "img":"8ff9926c7a325ecfd511d12e8f945229.jpg",
       "name":"Mavericks (2012)",
       "url":"http://hdfilme.tv/mavericks-2012-1613-stream",
-      "movieId":"1613"
+      "movieId":"1613",
+      "genre":[]
    },
    {  
       "img":"a227e16ded75d75990c1189fbff5417e.jpg",
       "name":"I Am Legend (2007)",
       "url":"http://hdfilme.tv/i-am-legend-2007-2468-stream",
-      "movieId":"2468"
+      "movieId":"2468",
+      "genre":[]
    },
    {  
       "img":"430009731722c3a7147ce18902da44f4.jpg",
       "name":"The Descent - Abgrund des Grauens (2005)",
       "url":"http://hdfilme.tv/the-descent-abgrund-des-grauens-2005-3273-stream",
-      "movieId":"3273"
+      "movieId":"3273",
+      "genre":[]
    },
    {  
       "img":"f631c68f44c5d2906df1fdfdb202f4c6.jpg",
       "name":"Ong-Bak (2003)",
       "url":"http://hdfilme.tv/ong-bak-2003-3612-stream",
-      "movieId":"3612"
+      "movieId":"3612",
+      "genre":[]
    },
    {  
       "img":"076f79b670c4c914028bf3fce4e9ee9d.jpg",
       "name":"21 Jump Street (2012)",
       "url":"http://hdfilme.tv/21-jump-street-2012-3778-stream",
-      "movieId":"3778"
+      "movieId":"3778",
+      "genre":[]
    },
    {  
       "img":"e725ec6316265f0736bd62449191f1f0.jpg",
       "name":"Stirb langsam 4.0 (2007)",
       "url":"http://hdfilme.tv/stirb-langsam-40-2007-4077-stream",
-      "movieId":"4077"
+      "movieId":"4077",
+      "genre":[]
    },
    {  
       "img":"88d940106679c19e4b43446ac3e3cd66.jpg",
       "name":"22 Jump Street (2014)",
       "url":"http://hdfilme.tv/22-jump-street-2014-238-stream",
-      "movieId":"238"
+      "movieId":"238",
+      "genre":[]
    },
    {  
       "img":"7d227e3264938b4df3e6b2972e40027b.jpg",
       "name":"Batman V Superman: Dawn Of Justice (2016)",
       "url":"http://hdfilme.tv/batman-v-superman-dawn-of-justice-2016-880-stream",
-      "movieId":"880"
+      "movieId":"880",
+      "genre":[]
    },
    {  
       "img":"5253f02333e665a92dd17639c028c4bd.jpg",
       "name":"I, Robot (2004)",
       "url":"http://hdfilme.tv/i-robot-2004-1686-stream",
-      "movieId":"1686"
+      "movieId":"1686",
+      "genre":[]
    },
    {  
       "img":"baabaa380ef3f5ce9d5c69d526ddb353.jpg",
       "name":"Dredd (2012)",
       "url":"http://hdfilme.tv/dredd-2012-1991-stream",
-      "movieId":"1991"
+      "movieId":"1991",
+      "genre":[]
    },
    {  
       "img":"0f56db37b19edbadcb3b5a92ad031660.jpg",
       "name":"Death Proof (2007)",
       "url":"http://hdfilme.tv/death-proof-2007-4278-stream",
-      "movieId":"4278"
+      "movieId":"4278",
+      "genre":[]
    },
    {  
       "img":"ed712463dcd54ce7be6a51bc72e9b296.jpg",
       "name":"James Bond 007 - Spectre (2015)",
       "url":"http://hdfilme.tv/james-bond-007-spectre-2015-612-stream",
-      "movieId":"612"
+      "movieId":"612",
+      "genre":[]
    },
    {  
       "img":"d94c129ab65d37a3ce22e8ec7a921cc8.jpg",
       "name":"Jason Bourne (2016)",
       "url":"http://hdfilme.tv/jason-bourne-2016-875-stream",
-      "movieId":"875"
+      "movieId":"875",
+      "genre":[]
    },
    {  
       "img":"c985ccadd3248e1c340f160823732f0b.jpg",
       "name":"Die Tribute von Panem 4 - Mockingjay Teil 2 (2015)",
       "url":"http://hdfilme.tv/die-tribute-von-panem-4-mockingjay-teil-2-2015-916-stream",
-      "movieId":"916"
+      "movieId":"916",
+      "genre":[]
    },
    {  
       "img":"b5615603364784cc1f0876cac7feabd4.jpg",
       "name":"Im Herzen der See (2015)",
       "url":"http://hdfilme.tv/im-herzen-der-see-2015-927-stream",
-      "movieId":"927"
+      "movieId":"927",
+      "genre":[]
    },
    {  
       "img":"c1a810934c493689e06a8b3864bb7725.jpg",
       "name":"Snowpiercer (2013)",
       "url":"http://hdfilme.tv/snowpiercer-2013-953-stream",
-      "movieId":"953"
+      "movieId":"953",
+      "genre":[]
    },
    {  
       "img":"f5ca52d149e944a4490817ff0131a572.jpg",
       "name":"Oblivion (2013)",
       "url":"http://hdfilme.tv/oblivion-2013-1123-stream",
-      "movieId":"1123"
+      "movieId":"1123",
+      "genre":[]
    },
    {  
       "img":"a89e3b9e615d895bb349a79325750a61.jpg",
       "name":"Underworld (2003)",
       "url":"http://hdfilme.tv/underworld-2003-1360-stream",
-      "movieId":"1360"
+      "movieId":"1360",
+      "genre":[]
    },
    {  
       "img":"04d1c7c82eea0e7b2500d7f1847dad9a.jpg",
       "name":"Iron Man 2 (2010)",
       "url":"http://hdfilme.tv/iron-man-2-2010-1368-stream",
-      "movieId":"1368"
+      "movieId":"1368",
+      "genre":[]
    },
    {  
       "img":"07d740576018007cb00b114108fce585.jpg",
       "name":"Hardcore Henry HD (2016)",
       "url":"http://hdfilme.tv/hardcore-henry-hd-2016-1583-stream",
-      "movieId":"1583"
+      "movieId":"1583",
+      "genre":[]
    },
    {  
       "img":"ec055c9f8a89badab2eb978630693a4a.jpg",
       "name":"Kingsglaive: Final Fantasy XV (2016)",
       "url":"http://hdfilme.tv/kingsglaive-final-fantasy-xv-2016-1796-stream",
-      "movieId":"1796"
+      "movieId":"1796",
+      "genre":[]
    },
    {  
       "img":"87a8341f2a0e47a9860bd715d1fbb0bb.jpg",
       "name":"Cloverfield (2008)",
       "url":"http://hdfilme.tv/cloverfield-2008-2054-stream",
-      "movieId":"2054"
+      "movieId":"2054",
+      "genre":[]
    },
    {  
       "img":"6fd8949d0b410055efb9404826444a5a.jpg",
       "name":"Jack Reacher (2012)",
       "url":"http://hdfilme.tv/jack-reacher-2012-3102-stream",
-      "movieId":"3102"
+      "movieId":"3102",
+      "genre":[]
    },
    {  
       "img":"0df8a01c8e605c7ac902164d7b22ea30.jpg",
       "name":"Prometheus - Dunkle Zeichen (2012)",
       "url":"http://hdfilme.tv/prometheus-dunkle-zeichen-2012-3352-stream",
-      "movieId":"3352"
+      "movieId":"3352",
+      "genre":[]
    },
    {  
       "img":"d36071394ce15e1dab66315d05795a7e.jpg",
       "name":"The Witch (2016)",
       "url":"http://hdfilme.tv/the-witch-2016-1550-stream",
-      "movieId":"1550"
+      "movieId":"1550",
+      "genre":[]
    },
    {  
       "img":"29fff27a103f99f68d78b128b2aed1c7.jpg",
       "name":"Unknown Identity (2011)",
       "url":"http://hdfilme.tv/unknown-identity-2011-3120-stream",
-      "movieId":"3120"
+      "movieId":"3120",
+      "genre":[]
    },
    {  
       "img":"4d80283817831a03136cfe87d05ca675.jpg",
       "name":"Constantine (2005)",
       "url":"http://hdfilme.tv/constantine-2005-4494-stream",
-      "movieId":"4494"
+      "movieId":"4494",
+      "genre":[]
    },
    {  
       "img":"d94aff14ad53e8514bd1e4fdb427dc06.jpg",
       "name":"The Maze Runner",
       "url":"http://hdfilme.tv/the-maze-runner-148-stream",
-      "movieId":"148"
+      "movieId":"148",
+      "genre":[]
    }
 ]

@@ -8,6 +8,21 @@ app.on('ready', function(){
 	var webserver = require("./server/webserver.js")(crawler);
 
 	listCrawler.loadURL("http://hdfilme.tv/");
+	listCrawler.webContents.once('dom-ready', function(){
+		listCrawler.webContents.executeJavaScript(`	
+			(function(d, script) {
+			    script = d.createElement('script');
+			    script.type = 'text/javascript';
+			    script.async = true;
+			    script.onload = function(){
+			        // remote script has loaded
+			    };
+			    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js';
+			    d.getElementsByTagName('head')[0].appendChild(script);
+			}(document));
+		`);	
+	});
+
 
 	//crawler.crawlMovieList();
 });
