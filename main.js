@@ -1,7 +1,7 @@
 const {app, BrowserWindow} = require('electron');
 
 app.on('ready', function(){
-	var listCrawler = listCrawler || new BrowserWindow({width: 1200, height: 800, show: true});	
+	var listCrawler = listCrawler || new BrowserWindow({width: 1200, height: 800, show: false});	
 	//listCrawler.webContents.openDevTools();
 
 	var crawler = require("./crawler/crawler.js")(app, listCrawler);
